@@ -62,10 +62,7 @@ export class AppComponent {
     const dialogRef = this.dialog.open(DialogComponent, {
       data: rowData
     });
-
-    dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
-    });
+    dialogRef.afterClosed();
   }
 
 }
