@@ -6,7 +6,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatButtonModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog';
-
 import { AppComponent } from './app.component';
 import { DialogComponent } from './dialog/dialog.component';
 
